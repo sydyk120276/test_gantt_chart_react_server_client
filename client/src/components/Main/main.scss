@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  justify-content: center;
+  &__container {
+     width: rem(1390);
+  }
+  &__header {
+    padding: rem(22) 0 rem(18) 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      &-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: rem(24);
+        line-height: rem(28);
+        color: #262842;
+      }
+      &-arrow {
+        display: flex;
+        gap: rem(16);
+        padding: rem(11) rem(16) rem(11) rem(28);
+        font-style: normal;
+        font-weight: 500;
+        font-size: rem(14);
+        line-height: rem(18);
+        color: #262842;
+        background: #F7F8FC;
+        border: none;
+        border: 1px solid rgba(38, 40, 66, 0.12);
+        border-radius: 10px;
+      }
+  }
+  &__body {
+    height: rem(685); 
+    background: #FFFFFF;
+    border: 1px solid rgba(228, 18, 64, 0.12);
+    border-radius: rem(10) 0 0 rem(10);
+    &-loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

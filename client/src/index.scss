@@ -1,0 +1,23 @@
+@use "sass:math";
+
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+span {
+  text-decoration: none;
+}
+
+@function rem($px) {
+  $result: math.div($px, 16) + rem;
+  @return $result;
+}
+
+@import './components/Main/main.scss';
+@import './app.scss';
+@import './components/Main/main.scss';
+@import './components/Home/home.scss';

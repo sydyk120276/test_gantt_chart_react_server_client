@@ -1,0 +1,23 @@
+.app {
+  background: blue;
+  display: flex;
+  justify-content: center;
+  margin-bottom: rem(200);
+  &__container {
+    display: flex;
+    flex-direction: column;
+    width: rem(1440);
+    height: rem(800);
+  }
+  &__header {
+    width: 100%;
+    height: rem(76);
+    background: #F5F5F5;
+  }
+  &__body {
+    width: 100%;
+    background: #FFFFFF;
+    height: rem(800);
+  }
+}
+

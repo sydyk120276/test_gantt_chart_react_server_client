@@ -1,0 +1,258 @@
+.home {
+  &__container {
+
+  }
+  &__content {
+    display: flex;
+   &-left-saidbar {
+    &-title {
+      display: flex;
+      width: rem(390);
+      height: rem(48);
+      font-style: normal;
+      font-weight: 500;
+      font-size: rem(14);
+      line-height: rem(14);
+      color: #6D6E85;
+      background: #F7F8FC;
+      border-right: 1px solid rgba(38, 40, 66, 0.12);
+      border-bottom: 1px solid rgba(38, 40, 66, 0.12);
+        &-text {
+          margin-left: rem(20);
+          margin-top: rem(15);
+        }
+    }
+    &-item {
+      width: rem(390);
+      height: rem(40);
+      background: #FFFFFF;
+      border: 1px solid rgba(38, 40, 66, 0.12);
+      border-width: 0px 1px 1px 0px;
+      &-last {
+        height: rem(347);
+        background: #FFFFFF;
+        border: 1px solid rgba(38, 40, 66, 0.12);
+        border-width: 0px 1px 0px 0px;
+      }
+    }
+   }
+
+    &--right-title {
+      width: rem(1036);
+      display: flex;
+      flex-direction: column;
+      color: #6D6E85;
+
+      &__numbers {
+        color: #6D6E85;
+      }
+    }
+  }
+}
+.home-rigth-header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+    &__mouth {
+      display: flex;
+      background: #F7F8FC;
+      &-item {
+        display: flex;
+        border-width: 0px 1px 1px 0px;
+        border-style: solid;
+        font-style: normal;
+        font-weight: 400;
+        font-size: rem(12);
+        line-height: rem(16);
+        align-items: center;
+        justify-content: center;
+
+        color: #262842;
+        border-color: rgba(38, 40, 66, 0.12);
+        width: 148px;
+        height: rem(24);
+      }
+      &-item:nth-child(n) {
+        width: 148px - 1.3px;
+      }
+      &-item:nth-child(6) {
+        width: 148px - 1.4px;
+      }
+      &-item:last-child {
+        border-width: 0px 0px 1px 0px;
+        width: rem(130);
+      }
+    }
+  &__numbers {
+    display: flex;
+
+      &-item {
+        display: flex;
+        border-style: solid;
+        font-style: normal;
+        font-weight: 400;
+        font-size: rem(12);
+        line-height: rem(16);
+        color: #262842;
+        width: rem(20.1);
+        height: rem(661);
+        border-width: 0px 1px 0px 0px;
+        border-color: rgba(38, 40, 66, 0.12);
+        align-items: flex-start;
+        justify-content: center;
+        &-number {
+          height: rem(18);
+          width: rem(22);
+          text-align: center;
+          border-bottom: 1px solid rgba(38, 40, 66, 0.12);
+          background: #F7F8FC;
+          padding-top: 5px;
+        }     
+
+      }
+      &-item:nth-child(7n + 6) {
+        color: #A9A9B8;
+      } 
+      &-item:nth-child(7n) {
+        color: #A9A9B8;
+      } 
+
+    &-number:first-child {
+
+    }
+  }
+  &__marketing-border {
+    position: absolute;
+    top: 14.5%;
+    left: 2%;
+    box-sizing: border-box;
+    width: rem(148);
+    height: rem(24);
+    background: #E2EBFF;
+    border: 1px solid #497CF6;
+    border-radius: 4px;
+  }
+  &__banners-border {
+    position: absolute;
+    top: 20.5%;
+    left: 2%;
+    width: rem(126);
+    height: rem(24);
+    background: #FFF2E0;
+    border: 1px solid #FFA530;
+    border-radius: 4px;
+  }
+  &__choosing-border {
+    position: absolute;
+    top: 26.5%;
+    left: 2%;
+    width: rem(105);
+    height: rem(24);
+    background: #CFF0D6;
+    border: 1px solid #2DB77B;
+    border-radius: 4px;
+  }
+  &__custom-border {
+    position: absolute;
+    top: 32.5%;
+    left: 4%;
+    width: rem(65);
+    height: rem(24);
+    background: #CFF0D6;
+    border: 1px solid #2DB77B;
+    border-radius: 4px;
+  }
+  &__custom-ussue-border {
+    position: absolute;
+    top: 38.5%;
+    left: 6%;
+    width: rem(42);
+    height: rem(24);
+    background: #FFF2E0;
+    border: 1px solid #FFA530;
+    border-radius: 4px;
+  }
+  &__custom-task-border {
+    position: absolute;
+    top: 44%;
+    left: 8%;
+    width: 23px;
+    height: 24px;
+    background: #FFF2E0;
+    border: 1px solid #FFA530;
+    border-radius: 4px;
+  }
+}
+.saidbar-item {
+  display: flex;
+  &__marketing {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: rem(23);
+    gap: rem(8);
+      &-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #262842;
+      }
+  }
+  &__banners {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: rem(43);
+    gap: rem(8);
+      &-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #262842;
+      }
+  }
+  &__choosing {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: rem(63);
+    gap: rem(8);
+      &-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #262842;
+      }
+  }
+  &__custom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: rem(83);
+    gap: rem(8);
+      &-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #262842;
+      }
+  }
+  &__task {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: rem(124);
+    gap: rem(8);
+      &-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #262842;
+      }
+  }
+}
